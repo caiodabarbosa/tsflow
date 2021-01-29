@@ -1,6 +1,6 @@
 # Object detection on satellite images
 
-YOLO/YOLOv2 inspired deep neural network for object detection on satellite images. Built using Tensorflow. Keys features:
+Built using Tensorflow. Keys features:
 - the model is using an architecture similar to YOLOv2 (batch_norm after each layers, no fully connected layers at the end).
 - We predict only one box per feature map cell instead of 2 as in YOLO.
 - No passthrough layer is used. Predictions are based only on the last layer.
